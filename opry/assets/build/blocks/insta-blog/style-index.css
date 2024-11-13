@@ -1,0 +1,197 @@
+/*!*********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/blocks/insta-blog/style.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************************/
+.insta-blog {
+  background-color: #403961;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px 0;
+  position: relative;
+  z-index: 1;
+}
+.insta-blog .container {
+  width: calc(100% - 40px);
+  max-width: 1180px;
+  margin: 50px auto;
+}
+.insta-blog .container .insta-blog__head {
+  max-width: 1220px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 60px;
+  gap: 15px;
+}
+.insta-blog .container .insta-blog__head .insta-blog-inner__header {
+  margin: 0;
+  margin-right: 20px;
+  font-family: "Gilroy";
+  color: inherit;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  line-height: 1.1;
+  color: #fff;
+  font-size: 35px;
+}
+.insta-blog .container .insta-blog__head p {
+  justify-self: flex-end;
+  margin-left: auto;
+  position: relative;
+  font-family: "Gilroy";
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 2px;
+  line-height: 1;
+  text-transform: uppercase;
+  display: inline-block;
+  text-decoration: none;
+  transition: background-size 0.4s;
+  background: rgba(0, 0, 0, 0);
+  color: #fff;
+  padding: 14px 22px 14px 22px;
+  border: 2px solid;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.insta-blog .container .insta-blog__head p:hover {
+  border-color: #bcbcbc;
+}
+.insta-blog .container .insta-blog__head p a {
+  text-decoration: none;
+  color: #fff;
+}
+.insta-blog .container .insta-blog__head p a::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  pointer-events: auto;
+  content: "";
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0);
+}
+.insta-blog .container .insta-blog__head p a:hover {
+  color: #bcbcbc;
+}
+.insta-blog .insta-blog__overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.9;
+  z-index: -1;
+}
+.insta-blog .insta-blog-inner__row {
+  color: #fff;
+  position: relative;
+}
+.insta-blog .insta-blog-inner__row.slick-dotted {
+  margin: 0 0 40px;
+}
+.insta-blog .insta-blog-inner__row.slick-dotted + .upcoming-event__footer {
+  margin-top: 100px;
+}
+.insta-blog .insta-blog-inner__row .slick-track {
+  display: flex;
+}
+.insta-blog .insta-blog-inner__row .slick-track > div {
+  padding: 0px 5px;
+  float: none;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+}
+.insta-blog .insta-blog-inner__row .slick-track > div:last-child {
+  border: none;
+}
+.insta-blog .insta-blog-inner__row .slick-arrow {
+  cursor: pointer;
+  transition: all 200ms linear;
+  margin: 0 15px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 0px;
+  position: absolute;
+  top: -30px;
+  transform: translateY(-50%);
+  display: flex;
+}
+.insta-blog .insta-blog-inner__row .slick-arrow.slick-disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+.insta-blog .insta-blog-inner__row .slick-arrow.prev {
+  right: 35px;
+}
+.insta-blog .insta-blog-inner__row .slick-arrow.prev svg {
+  transform: rotate(180deg);
+}
+.insta-blog .insta-blog-inner__row .slick-arrow.next {
+  right: -10px;
+}
+.insta-blog .insta-blog-inner__row .slick-arrow svg {
+  fill: #dadadc;
+  width: 22px;
+}
+.insta-blog .insta-blog-inner__row .slick-prev,
+.insta-blog .insta-blog-inner__row .slick-next {
+  font-size: 24px;
+  color: red;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 999;
+  cursor: pointer;
+  transition: all 200ms linear;
+  margin: 0 15px;
+  cursor: pointer;
+}
+.insta-blog .insta-blog-inner__row .slick-prev svg {
+  transform: rotate(180deg);
+}
+.insta-blog .insta-blog-inner__row .slick-next {
+  right: 20px;
+}
+.insta-blog .insta-blog-inner__row .insta-blog__item a {
+  position: relative;
+}
+.insta-blog .insta-blog-inner__row .insta-blog__item a::before {
+  transition: all 200ms linear;
+  content: "\f16d";
+  font-family: "FontAwesome";
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  font-size: 35px;
+  color: #fff;
+}
+.insta-blog .insta-blog-inner__row .insta-blog__item img {
+  height: auto;
+  max-width: 100%;
+}
+@media (max-width: 767px) {
+  .insta-blog .container .insta-blog__head .insta-blog-inner__header {
+    font-size: 25px;
+  }
+  .insta-blog .container .insta-blog__head p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 576px) {
+  .insta-blog .container .insta-blog__head .insta-blog-inner__header {
+    font-size: 20px;
+  }
+  .insta-blog .container .insta-blog__head p {
+    font-size: 13px;
+  }
+}
+
+/*# sourceMappingURL=style-index.css.map*/

@@ -1,0 +1,126 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "name": "opry/opry-venue",
+  "version": "0.1.0",
+  "title": "Footer Opry Venue",
+  "category": "opry",
+  "icon": "building",
+  "description": "Opry Venue block.",
+  "keywords": [
+    "Venue",
+    "Dynamic"
+  ],
+  "supports": {
+    "html": false
+  },
+  "textdomain": "opry",
+  "attributes": {
+    "blockID": {
+      "type": "string",
+      "default": ""
+    },
+    "imageID": {
+      "type": "number",
+      "default": ""
+    },
+    "imageURL": {
+      "type": "string",
+      "default": ""
+    },
+    "imageWidth": {
+      "type": "number",
+      "default": ""
+    },
+    "imageHeight": {
+      "type": "number",
+      "default": ""
+    },
+    "imageAlt": {
+      "type": "string",
+      "default": ""
+    },
+    "telNum": {
+      "type": "string",
+      "default": ""
+    },
+    "venue": {
+      "type": "array",
+      "default": [],
+      "query": {
+        "heading": {
+          "type": "string",
+          "default": ""
+        },
+        "showHeadingText": {
+          "type": "boolean",
+          "default": false
+        },
+        "title": {
+          "type": "string",
+          "default": ""
+        },
+        "showTitleText": {
+          "type": "boolean",
+          "default": false
+        },
+        "desc": {
+          "type": "string",
+          "default": ""
+        }
+      }
+    },
+    "headingColor": {
+      "type": "string",
+      "default": ""
+    },
+    "titleColor": {
+      "type": "string",
+      "default": ""
+    },
+    "descColor": {
+      "type": "string",
+      "default": ""
+    },
+    "bgColor": {
+      "type": "string",
+      "default": ""
+    },
+    "logos": {
+      "type": "array",
+      "default": [],
+      "query": {
+        "logoID": {
+          "type": "string",
+          "default": ""
+        },
+        "logoURL": {
+          "type": "string",
+          "default": ""
+        },
+        "logoAlt": {
+          "type": "string",
+          "default": ""
+        },
+        "logoWidth": {
+          "type": "string",
+          "default": ""
+        },
+        "logoHeight": {
+          "type": "string",
+          "default": ""
+        },
+        "logolink": {
+          "type": "string",
+          "default": ""
+        },
+        "logolinkTarget": {
+          "type": "string",
+          "default": ""
+        }
+      }
+    }
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

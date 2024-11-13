@@ -1,0 +1,116 @@
+/*!*********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/blocks/opry-venue/style.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************************/
+.footer-opry-venue-info {
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  color: #000;
+  padding: 50px 20px;
+  justify-content: space-between;
+  margin: auto;
+}
+.footer-opry-venue-info .opry-footer-bottom {
+  padding: 0 20px;
+}
+.footer-opry-venue-info .opry-footer-bottom .footer-logo__href {
+  width: 304px;
+  height: 105px;
+  display: block;
+  margin: auto;
+}
+.footer-opry-venue-info .opry-footer-bottom .footer-logo__href .footer-logo__img {
+  max-width: 100%;
+  width: 304px;
+  height: 105px;
+}
+.footer-opry-venue-info .opry-footer-bottom .social-links {
+  width: 100%;
+  margin: 10px 0;
+  text-align: center;
+  padding: 20px 60px;
+}
+.footer-opry-venue-info .opry-footer-bottom .phone-container {
+  text-align: center;
+  width: 100%;
+  font-family: "Gilroy";
+  font-weight: 600;
+  font-size: 1.333rem;
+  color: #000;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.footer-opry-venue-info .opry-footer-bottom .phone-container a {
+  font-family: "Gilroy";
+  font-weight: 600;
+  font-size: 1.333rem;
+  color: #000;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  display: block;
+  text-align: center;
+  display: inline;
+  text-decoration: none;
+  background-image: linear-gradient(#837676, #837676);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 1px;
+  transition: background-size 0.4s;
+  cursor: pointer;
+}
+.footer-opry-venue-info .opry-footer-bottom .phone-container a:hover {
+  background-size: 100% 1px;
+}
+.footer-opry-venue-info .opry-footer-bottom .footer-opry-venue__row {
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  justify-content: center;
+}
+.footer-opry-venue-info .opry-footer-bottom .footer-opry-venue__row .footer-opry-venue__item {
+  flex: 0 0 40%;
+  box-sizing: border-box;
+  padding: 20px;
+}
+.footer-opry-venue-info .opry-footer-bottom .footer-opry-venue__row .footer-opry-venue__item:nth-child(1), .footer-opry-venue-info .opry-footer-bottom .footer-opry-venue__row .footer-opry-venue__item:nth-child(3) {
+  order: -1;
+}
+.footer-opry-venue-info .opry-footer-bottom .footer-opry-venue__row .footer-opry-venue__item .footer-opry-venue-card__heading {
+  font-weight: 600;
+  font-size: 1.333rem;
+  color: #c50108;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 10px;
+}
+.footer-opry-venue-info .opry-footer-bottom .footer-opry-venue__row .footer-opry-venue__item .footer-opry-venue-card__title {
+  font-family: "Gilroy";
+  font-weight: 600;
+  font-size: 1.333rem;
+  color: #000;
+  letter-spacing: 0;
+  line-height: 20px;
+}
+.footer-opry-venue-info .opry-footer-bottom .footer-opry-venue__row .footer-opry-venue__item .footer-opry-venue-card__description {
+  font-size: 16px;
+  color: #000;
+  letter-spacing: 1px;
+  line-height: 25px;
+  margin: 0;
+}
+.footer-opry-venue-info .opry-footer-bottom.contact-btn .footer-opry-venue-logos__row {
+  display: block;
+  overflow: hidden;
+}
+.footer-opry-venue-info .opry-footer-bottom.contact-btn .footer-opry-venue-logos__row .footer-opry-venue-logos__item .footer-opry-venue-logos__left {
+  text-align: center;
+}
+.footer-opry-venue-info .opry-footer-bottom.contact-btn .footer-opry-venue-logos__row .footer-opry-venue-logos__item:nth-child(1) img {
+  width: 196px;
+  height: auto;
+  display: block;
+  overflow: hidden;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

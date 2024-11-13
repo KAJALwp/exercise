@@ -1,0 +1,53 @@
+.footer-opry-venue-info__first-section {
+    .social-links {
+        padding: 0 !important;
+
+        ul {
+
+            flex-wrap: inherit;
+
+            li {
+                padding: 0;
+            }
+
+        }
+    }
+
+    .opry-footer-bottom {
+        padding: 0 8px;
+    }
+
+    .footer-opry-venue__item {
+        box-sizing: border-box;
+        padding: 14px;
+        flex: 0 0 15%;
+    }
+
+    .footer-opry-venue-card__title {
+        font-size: 1rem;
+    }
+
+    .footer-opry-venue-card__heading {
+        font-weight: 600;
+        font-size: 1rem;
+    }
+
+    .footer-opry-venue-card__description {
+        font-size: 14px;
+        letter-spacing: 1px;
+        line-height: 20px;
+    }
+}
+
+.wp-block-widget-area__inner-blocks {
+    .footer-logo__img {
+        width: 190px;
+        height: 100px;
+    }
+
+    .footer-opry-venue-info {
+        .opry-footer-bottom {
+            padding: 0;
+        }
+    }
+}

@@ -1,0 +1,203 @@
+/*!****************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/blocks/event/style.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************/
+.wp-block-opry-sample-dynamic {
+  color: #000000;
+}
+
+.opry-recent-event {
+  margin: 0 auto;
+  padding-bottom: 40px;
+  position: relative;
+  z-index: 1;
+}
+.opry-recent-event .opry-event__overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.9;
+  z-index: -1;
+}
+.opry-recent-event .opry-event__row {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+.opry-recent-event .opry-event__row .opry-event__item {
+  max-width: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+}
+.opry-recent-event .opry-event__row .opry-event__item .event-cards {
+  background: url(../..//images/bg-promo-white.fd7cec0a.png) #ebedf6;
+  flex: 1;
+}
+.opry-recent-event .opry-event__row .opry-event__item .event-cards .info {
+  padding: 55px;
+  align-items: flex-start;
+  color: #000;
+  z-index: 5;
+  overflow: auto;
+  display: flex;
+  flex-grow: 0;
+  flex-direction: column;
+  position: static;
+  height: auto;
+  max-height: 100%;
+}
+.opry-recent-event .opry-event__row .opry-event__item .event-cards .info .info-inner {
+  align-items: flex-start;
+  text-align: left;
+  max-width: 720px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-grow: 1;
+  position: static;
+}
+.opry-recent-event .opry-event__row .opry-event__item .event-cards .info .info-inner .opry-event__venue {
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  font-family: "Museo Sans";
+  margin-bottom: 20px;
+  position: relative;
+}
+.opry-recent-event .opry-event__row .opry-event__item .event-cards .info .info-inner .opry-event__venue::before {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid #000;
+}
+.opry-recent-event .opry-event__row .opry-event__item .event-cards .info .info-inner .opry-event__date {
+  font-family: "Gilroy";
+  font-weight: 700;
+  font-size: 23px;
+  color: #000;
+  letter-spacing: 1.34px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  line-height: 38px;
+}
+.opry-recent-event .opry-event__row .opry-event__item .event-cards .info .info-inner .opry-event__title a {
+  position: relative;
+  margin-bottom: 0px;
+  font-family: "Gilroy";
+  font-weight: 700;
+  font-size: 2.368593037rem;
+  color: inherit;
+  letter-spacing: 2px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  display: inline;
+  text-decoration: none;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.4s;
+}
+.opry-recent-event .opry-event__row .opry-event__item .event-cards .info .info-inner .opry-event__title a:hover {
+  background-size: 100% 2px;
+}
+.opry-recent-event .opry-event__row .opry-event__item .event-cards .info .info-inner .opry-event-tagline {
+  margin-top: 10px;
+  font-weight: 300;
+  font-family: "Museo Sans";
+  font-size: 16px;
+  line-height: 1.5;
+  padding-bottom: 0;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+.opry-recent-event .opry-event__row .opry-event__item .event-cards .info .info-inner .opry-get-ticket-anchor {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-shrink: 0;
+  margin-top: auto;
+  transition: all 0.2s linear;
+  background: rgba(0, 0, 0, 0.38);
+  border-radius: 5px;
+  padding: 13px 30px;
+  margin-top: 60px;
+  font-family: "Gilroy";
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+  letter-spacing: 2px;
+  text-align: center;
+  line-height: 1;
+  text-transform: uppercase;
+  display: inline-block;
+  white-space: nowrap;
+  text-decoration: none;
+}
+.opry-recent-event .opry-event__row .opry-event__item .event-cards .info .info-inner .opry-get-ticket-anchor:hover {
+  background: #631210;
+  color: #fff;
+}
+.opry-recent-event .opry-event__row .opry-event__item .event-artist-card {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+}
+.opry-recent-event .opry-event__row .opry-event__item .event-artist-card .event-add-more {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.opry-recent-event .opry-event__row .opry-event__item .event-artist-card a {
+  flex-basis: calc(50% - 30px);
+  margin: 0 10px 20px 20px;
+  background-color: aliceblue;
+}
+.opry-recent-event .opry-event__row .opry-event__item .event-artist-card a:nth-child(3), .opry-recent-event .opry-event__row .opry-event__item .event-artist-card a:nth-child(4) {
+  margin-bottom: 0;
+}
+.opry-recent-event .opry-event__row .opry-event__item .event-artist-card a.event-add-more {
+  background: url(../..//images/bg-promo-white.fd7cec0a.png) #ebedf6;
+  background-size: cover;
+}
+.opry-recent-event .opry-event__row .opry-event__item .event-artist-card a img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+.opry-recent-event .opry-event__row .opry-event__item .event-artist-card a .event-artist-name {
+  padding: 40px 20px;
+  text-align: center;
+  background: url(../..//images/bg-promo-white.fd7cec0a.png) #ebedf6;
+  background-size: cover;
+}
+.opry-recent-event .opry-event__row .opry-event__item .event-artist-card a h4 {
+  text-align: center;
+  display: inline-block;
+  font-size: 22px;
+  font-family: "Gilroy";
+  line-height: 23px;
+  font-weight: 700;
+  color: #000;
+  transition: all 0.2s;
+  text-decoration: none;
+  background-image: linear-gradient(#000, #000);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.4s;
+}
+.opry-recent-event .opry-event__row .opry-event__item .event-artist-card a h4:hover {
+  background-size: 100% 2px;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

@@ -1,0 +1,42 @@
+/*!**********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/blocks/opry-venue/editor.scss ***!
+  \**********************************************************************************************************************************************************************************************************************************************************/
+.footer-opry-venue-info__first-section .social-links {
+  padding: 0 !important;
+}
+.footer-opry-venue-info__first-section .social-links ul {
+  flex-wrap: inherit;
+}
+.footer-opry-venue-info__first-section .social-links ul li {
+  padding: 0;
+}
+.footer-opry-venue-info__first-section .opry-footer-bottom {
+  padding: 0 8px;
+}
+.footer-opry-venue-info__first-section .footer-opry-venue__item {
+  box-sizing: border-box;
+  padding: 14px;
+  flex: 0 0 15%;
+}
+.footer-opry-venue-info__first-section .footer-opry-venue-card__title {
+  font-size: 1rem;
+}
+.footer-opry-venue-info__first-section .footer-opry-venue-card__heading {
+  font-weight: 600;
+  font-size: 1rem;
+}
+.footer-opry-venue-info__first-section .footer-opry-venue-card__description {
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 20px;
+}
+
+.wp-block-widget-area__inner-blocks .footer-logo__img {
+  width: 190px;
+  height: 100px;
+}
+.wp-block-widget-area__inner-blocks .footer-opry-venue-info .opry-footer-bottom {
+  padding: 0;
+}
+
+/*# sourceMappingURL=index.css.map*/

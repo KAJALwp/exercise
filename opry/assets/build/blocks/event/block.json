@@ -1,0 +1,43 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "name": "opry/event",
+  "version": "0.1.0",
+  "title": "Event",
+  "category": "opry",
+  "icon": "index-card",
+  "description": "Event Dynamic block where we can show Event data.",
+  "keywords": [
+    "Event",
+    "Dynamic"
+  ],
+  "supports": {
+    "html": false
+  },
+  "textdomain": "opry",
+  "attributes": {
+    "blockID": {
+      "type": "string",
+      "default": ""
+    },
+    "bgImage": {
+      "type": "object",
+      "default": {
+        "id": "",
+        "url": "",
+        "alt": "",
+        "width": "",
+        "height": ""
+      }
+    },
+    "bgGradient": {
+      "type": "string",
+      "default": "linear-gradient(-57deg, #364493 0%, #3b1c3d 100%)"
+    }
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": [
+    "file:./view.js"
+  ]
+}

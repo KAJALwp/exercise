@@ -1,0 +1,152 @@
+/*!*********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/blocks/show-cards/style.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************************/
+.show-program-card {
+  padding: 100px 0;
+  position: relative;
+  z-index: 1;
+}
+.show-program-card .show-program-gradiant {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  left: 0px;
+  height: 100%;
+  opacity: 0.9;
+  z-index: -1;
+}
+.show-program-card .show-program-card__row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+.show-program-card .show-program-card__detail-item {
+  width: 36%;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px 60px;
+  cursor: pointer;
+  overflow: hidden;
+}
+.show-program-card .show-program-card__detail-item:hover .show-program-card__title {
+  background-size: 100% 2px;
+}
+.show-program-card .show-program-card__detail-item:hover .show-program-card__img {
+  transform: scale(1.2);
+  transition: all 0.25s ease-in-out;
+}
+.show-program-card .show-program-card__detail-item .show-program-card__img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  transform: scale(1);
+  transition: all 0.25s ease-in-out;
+}
+.show-program-card .show-program-card__gradient {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  left: 0;
+  height: 100%;
+  opacity: 0.5;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.4117647059) no-repeat padding-box;
+}
+.show-program-card .show-program-card__box {
+  position: relative;
+  z-index: 2;
+  padding: 40px 0px;
+  text-align: left;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 38%;
+  left: -5%;
+}
+.show-program-card .show-program-card__box .show-program-card__description {
+  color: #262E36;
+  margin: 20px 0 0;
+}
+.show-program-card .show-program-card__box .btn-main-border {
+  margin: 30px 0 0;
+}
+.show-program-card .show-program-card__box .btn-main-border .btn-main {
+  display: inline-block;
+  border-radius: 5px;
+  padding: 13px 30px;
+  background: rgba(0, 0, 0, 0.38);
+  color: #fff;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  text-transform: uppercase;
+  cursor: pointer;
+  font-family: "Gilroy";
+  font-weight: 700;
+  font-size: 16px;
+}
+.show-program-card .show-program-card__box .btn-main-border .btn-main a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.show-program-card .show-program-card__box .btn-main-border .btn-main a:hover {
+  color: #000;
+  background: #fff;
+}
+.show-program-card .show-program-card__box .btn-main-border .btn-main:hover {
+  color: #000;
+  background: #fff;
+}
+.show-program-card .show-program-card__box .btn-main-border .btn-main:hover a {
+  color: #000;
+  background: #fff;
+}
+.show-program-card .show-program-card__title {
+  position: relative;
+  color: #fff;
+  margin: 0 auto;
+  position: relative;
+  margin-bottom: 0px;
+  font-family: "Gilroy";
+  font-weight: 700;
+  font-size: 1.24rem;
+  letter-spacing: 2px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  display: inline;
+  text-decoration: none;
+  background-image: linear-gradient(#fff, #fff);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.4s;
+}
+.show-program-card .show-program-card__title:hover {
+  background-size: 100% 2px;
+}
+@media (min-width: 1200px) {
+  .show-program-card .show-program-card__detail-item:nth-child(2n+1) {
+    height: 306px;
+  }
+  .show-program-card .show-program-card__detail-item:nth-child(2n+2) {
+    height: 306px;
+  }
+}
+@media (max-width: 1399px) {
+  .show-program-card .show-program-card__detail-item {
+    padding: 70px 30px;
+  }
+}
+@media (max-width: 767px) {
+  .show-program-card .show-program-card__detail-item {
+    padding: 40px 30px;
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=style-index.css.map*/

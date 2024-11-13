@@ -1,0 +1,132 @@
+.media__body {
+    position: relative;
+
+    .panel_text {
+        position: absolute;
+        top: 50%;
+        transform: translate(0, -50%);
+        z-index: 1;
+        color: #fff;
+        left: 0;
+        right: 0;
+
+        .item-body-heading {
+            .hero-banner__title {
+                display: block;
+                text-align: center;
+                font-weight: 900;
+                line-height: 1.1;
+                letter-spacing: 4px;
+                font-size: 50px;
+                line-height: 55px;
+                max-width: 800px;
+                margin: 0 auto;
+                margin-bottom: 30px;
+                font-family: "Gilroy";
+                font-weight: 900;
+            }
+        }
+
+        .btn-group {
+            display: flex;
+            justify-content: center;
+
+            .btn-main {
+                background-color: rgba(0, 0, 0, .8);
+                border: none;
+                color: #fff;
+                font-size: 1.333rem;
+                padding: 25px 30px;
+                margin: 10px 15px;
+                transition: all .2s linear;
+                border-radius: 5px;
+                text-transform: uppercase;
+                font-family: "Gilroy";
+                font-weight: 700;
+                cursor: pointer;
+
+                a {
+                    color: #fff;
+                    text-decoration: none;
+                }
+
+                &:hover {
+                    color: #fff;
+                    background-color: #631210;
+                }
+            }
+        }
+    }
+}
+
+.opry_video__wrap {
+    position: relative;
+    bottom: -3px;
+
+    video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .opry_video__play {
+        cursor: pointer;
+        opacity: 1;
+        position: absolute;
+        bottom: 50px;
+        right: 50px;
+        border-radius: 12px;
+
+        &::after,
+        &::before {
+            width: 80px;
+            height: 80px;
+            border-radius: 50px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            content: '';
+            transform: translate(-50%, -50%);
+            transition: all 0.25s ease-in-out;
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
+
+        &::after {
+            background-image: url('./ic-play.svg');
+            display: block;
+        }
+
+        &::before {
+            background-image: url('./ic-pause.svg');
+            display: none;
+        }
+    }
+
+    &.active {
+        .opry_video__play {
+            opacity: 0.35;
+
+            &::after {
+                display: none;
+            }
+
+            &::before {
+                display: block;
+            }
+        }
+    }
+}
+
+.align-center {
+    text-align: center;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.align-right {
+    text-align: right;
+}

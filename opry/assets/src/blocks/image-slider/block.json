@@ -1,0 +1,68 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "name": "opry/image-slider",
+  "version": "0.1.0",
+  "title": "Image Slider",
+  "category": "opry",
+  "icon": "excerpt-view",
+  "description": "This block is for Image Slider section of the home page.",
+  "keywords": [
+    "Image",
+    "Slider",
+    "Opry"
+  ],
+  "supports": {
+    "html": false
+  },
+  "textdomain": "opry",
+  "attributes": {
+    "blockID": {
+      "type": "string",
+      "default": ""
+    },
+    "autoplay": {
+      "type": "boolean",
+      "default": false
+    },
+    "arrows": {
+      "type": "boolean",
+      "default": true
+    },
+    "dots": {
+      "type": "boolean",
+      "default": true
+    },
+    "slideInfinite": {
+      "type": "boolean",
+      "default": true
+    },
+    "repeatItems": {
+      "type": "array",
+      "default": []
+    },
+    "bgColor": {
+      "type": "string",
+      "default": ""
+    },
+    "bgMediaID": {
+      "type": "string",
+      "default": ""
+    },
+    "bgMediaURL": {
+      "type": "string",
+      "default": ""
+    },
+    "bgPosition": {
+      "type": "string",
+      "default": ""
+    },
+    "gradientColor": {
+      "type": "string",
+      "default": "linear-gradient(-57deg, #364493 0%, #3b1c3d 100%)"
+    }
+  },
+  "editorScript": "file:./index.js",
+  "viewScript": "file:./view.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

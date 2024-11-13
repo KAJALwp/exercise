@@ -1,0 +1,124 @@
+/*!***********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/blocks/image-slider/style.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************************/
+.opry-media-slider {
+  padding-bottom: 40px;
+  position: relative;
+}
+.opry-media-slider .show-image-gradiant {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  left: 0px;
+  height: 100%;
+  opacity: 0.9;
+}
+.opry-media-slider .opry-image-container {
+  width: 100%;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 15px;
+  gap: 40px;
+  position: relative;
+  z-index: 1;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+.opry-media-slider .opry-image-container .opry-image-heading .container {
+  display: flex;
+  gap: 40px;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 15px;
+}
+.opry-media-slider .opry-image-container .opry-image-heading .container .opry-image-ttl {
+  flex: 1 1;
+}
+.opry-media-slider .opry-image-container .opry-image-slider .image-slider-item {
+  height: auto !important;
+}
+.opry-media-slider .opry-image-container .opry-image-slider .image-slider-item {
+  display: flex;
+  align-self: stretch;
+  margin: 0 10px;
+  margin-bottom: 20px;
+}
+.opry-media-slider .opry-image-container .opry-image-slider .image-slider-item .image-slider-content {
+  width: 100%;
+  text-align: center;
+  background-color: #fff;
+  overflow: hidden;
+  box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.3);
+}
+.opry-media-slider .opry-image-container .opry-image-slider .image-slider-item .image-slider-content .image-slider-image img {
+  max-width: 1180px;
+  width: 100%;
+  height: auto;
+}
+.opry-media-slider .opry-image-container .opry-image-slider .image-slider-item .image-slider-content .image-slider-title {
+  padding: 20px;
+}
+.opry-media-slider .opry-image-container .opry-image-slider .image-slider-item .image-slider-content .image-slider-title .content-slider-button {
+  font-size: 16px;
+  min-width: 100px;
+  text-align: center;
+  color: #fff;
+  display: inline-block;
+  border: 2px solid rgba(0, 0, 0, 0);
+  background-color: #f75227;
+  cursor: pointer;
+  letter-spacing: 0.16px;
+  word-break: break-word;
+  text-decoration: none;
+  position: relative;
+  line-height: 1.4;
+  border-radius: 50px;
+  transition: 150ms ease-out;
+  font-weight: 700;
+  padding: 10px 15px;
+  margin-top: 20px;
+}
+.opry-media-slider .opry-image-container .opry-image-slider .image-slider-item .image-slider-content .image-slider-title .content-slider-button a {
+  text-decoration: none;
+  color: inherit;
+}
+.opry-media-slider .slick-dots {
+  padding: 10px;
+  bottom: -110px;
+}
+.opry-media-slider .slick-dots li {
+  width: 10px;
+  height: 10px;
+  margin: 0 15px;
+  vertical-align: middle;
+}
+.opry-media-slider .slick-dots li button {
+  padding: 0;
+  width: 10px;
+  height: 10px;
+}
+.opry-media-slider .slick-dots li button:before {
+  color: #E0DFE4;
+  font-size: 20px;
+  opacity: 1;
+  width: 10px;
+  height: 10px;
+  line-height: 1;
+}
+.opry-media-slider .slick-dots li.slick-active button::before {
+  color: #2670CA;
+}
+.opry-media-slider .slick-prev {
+  left: -40px;
+  z-index: 1;
+}
+.opry-media-slider .slick-next {
+  right: -50px;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

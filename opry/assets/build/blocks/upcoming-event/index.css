@@ -1,0 +1,37 @@
+/*!**************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/blocks/upcoming-event/editor.scss ***!
+  \**************************************************************************************************************************************************************************************************************************************************************/
+.upcoming-event .opry-select-wrap label {
+  color: #fff;
+}
+.upcoming-event .upcoming-event__row .upcoming-event__item {
+  display: flex !important;
+  flex-direction: row !important;
+}
+.upcoming-event .upcoming-event__row .upcoming-event__item .upcoming-event__date {
+  background-size: contain;
+}
+.upcoming-event .slick-arrow.slick-prev {
+  left: 32% !important;
+}
+.upcoming-event .slick-arrow.slick-prev svg {
+  transform: rotate(180deg);
+}
+.upcoming-event .slick-arrow.slick-next, .upcoming-event .slick-arrow.slick-prev {
+  top: -29% !important;
+}
+.upcoming-event .slick-arrow.slick-next, .upcoming-event .slick-arrow.slick-prev {
+  transform: translateY(-50%);
+  display: flex;
+}
+.upcoming-event .slick-arrow.slick-next::before, .upcoming-event .slick-arrow.slick-prev::before {
+  content: "";
+}
+.upcoming-event .slick-arrow.slick-next {
+  right: 60% !important;
+}
+.upcoming-event .slick-arrow svg {
+  fill: #937cb9;
+}
+
+/*# sourceMappingURL=index.css.map*/

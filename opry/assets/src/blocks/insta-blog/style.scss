@@ -1,0 +1,227 @@
+@import '../../scss/mixins/breakpoints';
+@import '../../scss/mixins/variables';
+
+.insta-blog {
+    background-color: #403961;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px 0;
+    position: relative;
+    z-index: 1;
+
+    .container {
+        width: calc(100% - 40px);
+        max-width: 1180px;
+        margin: 50px auto;
+
+        .insta-blog__head {
+            max-width: 1220px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            padding-bottom: 60px;
+            gap: 15px;
+
+            .insta-blog-inner__header {
+                margin: 0;
+                margin-right: 20px;
+                font-family: "Gilroy";
+                color: inherit;
+                text-transform: uppercase;
+                font-weight: 700;
+                letter-spacing: 2px;
+                line-height: 1.1;
+                color: #fff;
+                font-size: 35px;
+
+                @include media-breakpoint(max-767) {
+                    font-size: 25px;
+                }
+
+                @include media-breakpoint(max-576) {
+                    font-size: 20px;
+                }
+            }
+
+            p {
+                justify-self: flex-end;
+                margin-left: auto;
+                position: relative;
+                font-family: "Gilroy";
+                font-weight: 700;
+                font-size: 16px;
+                letter-spacing: 2px;
+                line-height: 1;
+                text-transform: uppercase;
+                display: inline-block;
+                text-decoration: none;
+                transition: background-size .4s;
+                background: rgba(0, 0, 0, 0);
+                color: #fff;
+                padding: 14px 22px 14px 22px;
+                border: 2px solid;
+                border-radius: 30px;
+                cursor: pointer;
+
+                @include media-breakpoint(max-767) {
+                    font-size: 14px;
+                }
+
+                @include media-breakpoint(max-576) {
+                    font-size: 13px;
+                }
+
+                &:hover {
+                    border-color: #bcbcbc;
+                }
+
+                a {
+                    text-decoration: none;
+                    color: #fff;
+
+                    &::before {
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        bottom: 0;
+                        left: 0;
+                        z-index: 1;
+                        pointer-events: auto;
+                        content: "";
+                        cursor: pointer;
+                        background-color: rgba(0, 0, 0, 0);
+                    }
+
+                    &:hover {
+                        color: #bcbcbc;
+                    }
+                }
+            }
+        }
+    }
+
+    .insta-blog__overlay {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0.9;
+        z-index: -1;
+    }
+
+    .insta-blog-inner__row {
+        color: #fff;
+        position: relative;
+
+        &.slick-dotted {
+            margin: 0 0 40px;
+
+            +.upcoming-event__footer {
+                margin-top: 100px;
+            }
+        }
+
+        .slick-track {
+            display: flex;
+
+            >div {
+                padding: 0px 5px;
+                float: none;
+                height: inherit;
+                display: flex;
+                flex-direction: column;
+
+                &:last-child {
+                    border: none;
+                }
+            }
+        }
+
+        .slick-arrow {
+            cursor: pointer;
+            transition: all 200ms linear;
+            margin: 0 15px;
+            cursor: pointer;
+            background: none;
+            border: none;
+            padding: 0px;
+            position: absolute;
+            top: -30px;
+            transform: translateY(-50%);
+            display: flex;
+
+            &.slick-disabled {
+                opacity: 0.6;
+                cursor: default;
+            }
+
+            &.prev {
+                right: 35px;
+
+                svg {
+                    transform: rotate(180deg);
+
+                }
+            }
+
+            &.next {
+                right: -10px;
+            }
+
+            svg {
+                fill: #dadadc;
+                width: 22px;
+            }
+        }
+
+        .slick-prev,
+        .slick-next {
+            font-size: 24px;
+            color: red;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 999;
+            cursor: pointer;
+            transition: all 200ms linear;
+            margin: 0 15px;
+            cursor: pointer;
+        }
+
+        .slick-prev {
+            svg {
+                transform: rotate(180deg);
+            }
+        }
+
+        .slick-next {
+            right: 20px;
+        }
+
+        .insta-blog__item {
+            a {
+                position: relative;
+
+                &::before {
+                    transition: all 200ms linear;
+                    content: "\f16d";
+                    font-family: "FontAwesome";
+                    position: absolute;
+                    bottom: 20px;
+                    left: 20px;
+                    font-size: 35px;
+                    color: #fff;
+                }
+            }
+
+            img {
+                height: auto;
+                max-width: 100%;
+            }
+        }
+    }
+}

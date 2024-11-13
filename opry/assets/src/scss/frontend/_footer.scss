@@ -1,0 +1,228 @@
+.global-footer {
+
+	position: relative;
+	zoom: 1;
+	margin: 0 auto;
+	display: block;
+	padding: 50px 20px;
+	clear: both;
+	background: #eceaea;
+	text-align: center;
+	color: #837676;
+
+	.presented-by {
+		font-family: "Gilroy";
+		font-weight: 700;
+		font-size: 1.333rem;
+		color: #837676;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+		line-height: 35px;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+		margin-bottom: 20px;
+
+		&.footer-sponsor {
+			margin-top: 20px;
+		}
+
+		span {
+			display: block;
+			width: 100%;
+			margin-bottom: 10px;
+		}
+
+		a {
+			margin-left: 10px;
+			margin-right: 10px;
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			align-items: center;
+
+			:hover {
+				zoom: 1;
+				opacity: .8;
+				-moz-opacity: .8;
+				filter: alpha(opacity=80);
+			}
+		}
+	}
+
+	.site-info {
+		font-family: "Gilroy";
+		position: relative;
+		display: block;
+		margin: auto;
+		padding: 20px 0 0;
+		color: #837676;
+		font-weight: 700;
+		font-size: 16px;
+
+		.delimiter {
+			padding: 0 2px;
+			color: #837676;
+		}
+
+		a {
+			transition: all 200ms linear;
+			color: #837676;
+			text-decoration: none;
+			display: inline;
+			text-decoration: none;
+			background-image: linear-gradient(#837676, #837676);
+			background-position: 0% 100%;
+			background-repeat: no-repeat;
+			background-size: 0% 1px;
+			transition: background-size .4s;
+		}
+	}
+
+	.presented-logo,
+	.footer-sponsor-logo {
+		display: inline-block;
+		max-height: 55px;
+		max-width: 200px;
+	}
+}
+
+.footer-inner__bg {
+	background: url("~/src/images/bg-pattern.png") no-repeat center;
+	background-size: contain;
+	position: relative;
+	background-position: center;
+	padding: 40px 0;
+
+	&::before {
+		background: linear-gradient(-57deg, #364493 0%, #3b1c3d 100%);
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		opacity: 0.9;
+		z-index: -1;
+	}
+}
+
+.footer-menu-widgets {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 1400px;
+	max-width: 100%;
+	margin: auto;
+	background-color: #fff;
+	padding: 50px 20px;
+
+	.widget_nav_menu {
+		ul {
+			list-style: none;
+
+			li:first-child a {
+				font-family: "Gilroy";
+				font-weight: 500;
+				font-size: 1.333rem;
+				color: #000;
+				letter-spacing: 2px;
+				text-transform: uppercase;
+				margin-bottom: 20px;
+				display: block;
+				display: inline;
+				text-decoration: none;
+				background-image: linear-gradient(#000, #000);
+				background-position: 0% 100%;
+				background-repeat: no-repeat;
+				background-size: 0% 2px;
+				transition: background-size .4s;
+
+				&:hover,
+				&:focus,
+				&:active {
+					background-size: 100% 2px
+				}
+			}
+
+			li:not(:first-child) {
+				margin-top: 0;
+				padding: 5px 0;
+				zoom: 1;
+
+				a {
+					font-family: "Museo Sans";
+					font-size: 16px;
+					color: #000;
+					letter-spacing: 1px;
+					line-height: 20px;
+					font-weight: 300;
+					margin-bottom: 5px;
+					display: block;
+					display: inline;
+					text-decoration: none;
+					background-image: linear-gradient(#000, #000);
+					background-position: 0% 100%;
+					background-repeat: no-repeat;
+					background-size: 0% 1px;
+					transition: background-size .4s;
+					padding-bottom: 2px;
+
+					&:hover,
+					&:focus,
+					&:active {
+						background-size: 100% 1px
+					}
+				}
+			}
+
+			::before,
+			::after {
+				display: block;
+				visibility: hidden;
+				height: 0;
+				content: " ";
+			}
+
+			li:nth-child(2) {
+				margin-top: 10px;
+			}
+		}
+
+		&:last-child {
+			ul {
+				list-style: disc;
+
+				li {
+					margin-top: 10px;
+
+					a {
+						font-family: "Gilroy";
+						font-weight: 500;
+						font-size: 1.333rem;
+						color: #000;
+						letter-spacing: 2px;
+						text-transform: uppercase;
+						margin-bottom: 20px;
+						display: block;
+						display: inline;
+						text-decoration: none;
+						background-image: linear-gradient(#000, #000);
+						background-position: 0% 100%;
+						background-repeat: no-repeat;
+						background-size: 0% 2px;
+						transition: background-size .4s;
+
+						&:hover,
+						&:focus,
+						&:active {
+							background-size: 100% 2px
+						}
+					}
+				}
+			}
+		}
+	}
+}

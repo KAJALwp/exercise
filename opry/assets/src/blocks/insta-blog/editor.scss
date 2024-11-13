@@ -1,0 +1,45 @@
+.insta-blog {
+    .container {
+        .insta-blog__head {
+            flex-wrap: wrap;
+
+            .insta-blog-inner__header {
+                width: 68%;
+            }
+
+            p {
+                width: 27%;
+            }
+        }
+    }
+
+    .slick-arrow {
+        &.slick-prev {
+            right: 35px !important;
+            left: auto;
+
+            svg {
+                transform: rotate(180deg);
+            }
+        }
+
+        &.slick-next,
+        &.slick-prev {
+            top: -35px !important;
+            transform: translateY(-50%);
+            display: flex;
+
+            &::before {
+                content: '';
+            }
+        }
+
+        &.slick-next {
+            right: -5px !important;
+        }
+
+        svg {
+            fill: #937cb9;
+        }
+    }
+}

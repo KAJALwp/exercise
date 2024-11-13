@@ -1,0 +1,21 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "name": "opry/sample",
+  "version": "0.1.0",
+  "title": "Sample Block",
+  "category": "opry",
+  "icon": "lock",
+  "description": "Sample block.",
+  "keywords": ["sample", "Block"],
+  "supports": {
+    "html": false
+  },
+  "textdomain": "opry",
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "editorScript": "file:./index.js"
+}

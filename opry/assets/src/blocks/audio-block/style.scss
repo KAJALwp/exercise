@@ -1,0 +1,125 @@
+.footer-audio {
+	position: relative;
+
+	.footer-audio-gradiant {
+		position: absolute;
+		top: 0px;
+		width: 100%;
+		left: 0px;
+		height: 100%;
+		opacity: 0.9;
+	}
+
+	.container {
+		position: relative;
+
+		.footer-audio-inner {
+			width: 100%;
+			max-width: 1440px;
+			padding: 0 20px;
+			padding-right: 0;
+			margin: auto;
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			align-items: center;
+
+			.footer-audio-inner__first-section {
+				max-width: 30%;
+				padding: 20px;
+
+				.footer-audio__heading {
+					font-family: "Gilroy";
+					font-weight: 600;
+					font-size: 38px;
+					color: #fff;
+					letter-spacing: 2px;
+					text-align: center;
+					text-transform: uppercase;
+					margin-bottom: 10px;
+				}
+
+				.footer-audio__desc {
+					font-family: "Museo Sans";
+					font-weight: 300;
+					font-size: 16px;
+					color: #fff;
+					letter-spacing: 1px;
+					text-align: center;
+					line-height: 25px;
+				}
+			}
+
+			.footer-audio-inner__second-section {
+				max-width: 30%;
+				padding: 20px;
+
+				button#play-wsm-radio {
+					font-weight: 700;
+					display: flex;
+					flex-direction: row;
+					align-items: center;
+					justify-content: center;
+					font-size: 1.333rem;
+					font-family: "Gilroy";
+					letter-spacing: 2px;
+					text-align: center;
+					color: #fff;
+					white-space: nowrap;
+					background-color: transparent;
+					border: none;
+					cursor: pointer;
+
+					svg {
+						margin-right: 20px;
+					}
+				}
+
+				.footer-audio-inner__btn {
+					background: #c50108;
+					border: 2px solid #c50108;
+					border-radius: 5px;
+					font-family: "Gilroy";
+					font-weight: 700;
+					font-size: 16px;
+					color: #fff;
+					letter-spacing: 2px;
+					text-align: center;
+					line-height: 1;
+					padding: 13px 30px;
+					text-transform: uppercase;
+					margin-top: 20px;
+					display: inline-block;
+					white-space: nowrap !important;
+					transition: all .2s linear;
+					text-decoration: none;
+					width: auto;
+
+					a {
+						text-transform: uppercase;
+						display: inline-block;
+						white-space: nowrap;
+						transition: all .2s linear;
+						text-decoration: none;
+						color: #fff;
+					}
+				}
+
+			}
+
+			.footer-audio-inner__third-section {
+				max-width: 30%;
+				padding: 20px;
+				padding-bottom: 0;
+				align-self: flex-end;
+
+				.footer-audio__img {
+					display: block;
+					max-width: 100%;
+				}
+
+			}
+
+		}
+	}
+}

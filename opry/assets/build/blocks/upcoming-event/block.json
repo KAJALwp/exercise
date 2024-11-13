@@ -1,0 +1,59 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "name": "opry/upcoming-event",
+  "version": "0.1.0",
+  "title": "Upcoming Event",
+  "category": "opry",
+  "icon": "slides",
+  "description": "Upcoming Event Dynamic block where we can show Upcoming Event data.",
+  "keywords": [
+    "Upcoming Event",
+    "Dynamic"
+  ],
+  "supports": {
+    "html": false
+  },
+  "textdomain": "opry",
+  "attributes": {
+    "blockID": {
+      "type": "string",
+      "default": ""
+    },
+    "bgImage": {
+      "type": "object",
+      "default": {
+        "id": "",
+        "url": "",
+        "alt": "",
+        "width": "",
+        "height": ""
+      }
+    },
+    "bgGradient": {
+      "type": "string",
+      "default": "linear-gradient(-57deg, #364493 0%, #3b1c3d 100%)"
+    },
+    "heading": {
+      "type": "string",
+      "default": ""
+    },
+    "noOfEvent": {
+      "type": "number",
+      "default": 6
+    },
+    "viewAll": {
+      "type": "string",
+      "default": ""
+    },
+    "headingColor": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": [
+    "file:./view.js"
+  ]
+}

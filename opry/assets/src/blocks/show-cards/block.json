@@ -1,0 +1,80 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "name": "opry/show-cards",
+  "version": "0.1.0",
+  "title": "Event Show",
+  "category": "opry",
+  "icon": "tickets",
+  "description": "Event Show block.",
+  "keywords": [
+    "show",
+    "cards"
+  ],
+  "supports": {
+    "html": false
+  },
+  "textdomain": "opry",
+  "attributes": {
+    "blockID": {
+      "type": "string",
+      "default": ""
+    },
+    "boxList": {
+      "type": "array",
+      "default": [],
+      "query": {
+        "title": {
+          "type": "string",
+          "default": ""
+        },
+        "buttonText": {
+          "type": "string",
+          "default": ""
+        },
+        "boxBgPosition": {
+          "type": "string",
+          "default": ""
+        },
+        "mediaURL": {
+          "type": "string",
+          "default": ""
+        },
+        "boxlink": {
+          "type": "string",
+          "default": ""
+        },
+        "boxlinkTarget": {
+          "type": "string",
+          "default": ""
+        }
+      }
+    },
+    "bgColor": {
+      "type": "string",
+      "default": ""
+    },
+    "headingColor": {
+      "type": "string",
+      "default": ""
+    },
+    "bgMediaID": {
+      "type": "string",
+      "default": ""
+    },
+    "bgMediaURL": {
+      "type": "string",
+      "default": ""
+    },
+    "bgPosition": {
+      "type": "string",
+      "default": ""
+    },
+    "gradientColor": {
+      "type": "string",
+      "default": "linear-gradient(-57deg, #364493 0%, #3b1c3d 100%)"
+    }
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

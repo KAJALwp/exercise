@@ -1,0 +1,102 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "name": "opry/hero-banner",
+    "version": "0.1.0",
+    "title": "Hero Banner",
+    "category": "opry",
+    "icon": "index-card",
+    "description": "The Hero Banner block includes Video, and Image elements.",
+    "keywords": [
+        "Hero Banner",
+        "Image"
+    ],
+    "supports": {
+        "html": false
+    },
+    "textdomain": "opry",
+    "attributes": {
+        "blockID": {
+            "type": "string",
+            "default": ""
+        },
+        "mediaType": {
+            "type": "string",
+            "default": ""
+        },
+        "mediaMime": {
+            "type": "string",
+            "default": ""
+        },
+        "mediaID": {
+            "type": "number",
+            "default": ""
+        },
+        "mediaURL": {
+            "type": "string",
+            "default": ""
+        },
+        "mediaAlt": {
+            "type": "string",
+            "default": ""
+        },
+        "mediaWidth": {
+            "type": "number",
+            "default": ""
+        },
+        "mediaHeight": {
+            "type": "number",
+            "default": ""
+        },
+        "mediaCaption": {
+            "type": "string",
+            "default": ""
+        },
+        "showMediaCaption": {
+            "type": "boolean",
+            "default": false
+        },
+        "videoPoster": {
+            "type": "string",
+            "default": ""
+        },
+        "videoAutplay": {
+            "type": "boolean",
+            "default": false
+        },
+        "videoLoop": {
+            "type": "boolean",
+            "default": false
+        },
+        "videoMuted": {
+            "type": "boolean",
+            "default": false
+        },
+        "mediaAlign": {
+            "type": "string",
+            "default": "left"
+        },
+        "heading": {
+            "type": "string",
+            "default": ""
+        },
+        "headingColor": {
+            "type": "string",
+            "default": ""
+        },
+        "btnOneText": {
+            "type": "string",
+            "default": ""
+        },
+        "btnTwoText": {
+            "type": "string",
+            "default": ""
+        }
+    },
+    "editorScript": [
+        "file:./index.js",
+        "file:./view.js"
+    ],
+    "viewScript": "file:./view.js",
+    "editorStyle": "file:./index.css",
+    "style": "file:./style-index.css"
+}

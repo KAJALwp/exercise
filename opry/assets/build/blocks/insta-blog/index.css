@@ -1,0 +1,39 @@
+/*!**********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/blocks/insta-blog/editor.scss ***!
+  \**********************************************************************************************************************************************************************************************************************************************************/
+.insta-blog .container .insta-blog__head {
+  flex-wrap: wrap;
+}
+.insta-blog .container .insta-blog__head .insta-blog-inner__header {
+  width: 68%;
+}
+.insta-blog .container .insta-blog__head p {
+  width: 27%;
+}
+.insta-blog .slick-arrow.slick-prev {
+  right: 35px !important;
+}
+.insta-blog .slick-arrow.slick-prev {
+  left: auto;
+}
+.insta-blog .slick-arrow.slick-prev svg {
+  transform: rotate(180deg);
+}
+.insta-blog .slick-arrow.slick-next, .insta-blog .slick-arrow.slick-prev {
+  top: -35px !important;
+}
+.insta-blog .slick-arrow.slick-next, .insta-blog .slick-arrow.slick-prev {
+  transform: translateY(-50%);
+  display: flex;
+}
+.insta-blog .slick-arrow.slick-next::before, .insta-blog .slick-arrow.slick-prev::before {
+  content: "";
+}
+.insta-blog .slick-arrow.slick-next {
+  right: -5px !important;
+}
+.insta-blog .slick-arrow svg {
+  fill: #937cb9;
+}
+
+/*# sourceMappingURL=index.css.map*/

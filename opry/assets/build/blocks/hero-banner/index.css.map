@@ -1,0 +1,1 @@
+{"version":3,"file":"blocks/hero-banner/index.css","mappings":";;;AACC;EACC;AAAF,C","sources":["webpack://opry/./src/blocks/hero-banner/editor.scss"],"sourcesContent":[".media__body {\n\t.upload-wrap {\n\t\ttext-align: center;\n\t}\n}"],"names":[],"sourceRoot":""}
